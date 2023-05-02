@@ -1,10 +1,7 @@
    # M1S08 Cat-trivia via Angular CLI
 **Mini Projeto roteiro do módulo 1 Semana 09 | Curso FullStack elaborado pela SESI SENAI.**
 
-> **Descrição:** Criação e desenvolvimento de uma app / software Front-End para gerenciar 
-a administração de medicamentos em pacientes, através de um sistema de gestão e que deverá 
-ser construído utilizando o framework Angular.
-contato com algumas novas caracteristicas dos componentes, entender mais detalhes o roteamento no Angular, visualizar alguns tipos de integrações, comandos CLIs, HTML, CSS, manipulação de session/local storage e consumo de APIs.
+> **Descrição:** Contato com algumas novas caracteristicas dos componentes, entender mais detalhes o roteamento no Angular, visualizar alguns tipos de integrações, comandos CLIs, HTML, CSS, manipulação de session/local storage e consumo de APIs.
 
 ## Técnicas e tecnologias utilizadas
 
