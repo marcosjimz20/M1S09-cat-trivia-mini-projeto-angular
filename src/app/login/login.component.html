@@ -1,0 +1,38 @@
+<main>
+    <div class="p-3 mb-2 position-absolute top-50 start-50 translate-middle row w-100">
+        <div class="col-6 d-flex flex-column align-items-center">
+            <form [formGroup]="loginForm" (ngSubmit)="checkRegister()" class="bg-light p-3 rounded m-3 w-100">
+
+                <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Nome de usuário</label>
+                    <input formControlName="nameUser" type="email" class="form-control" id="inputEmail"
+                        name="inputEmail" aria-describedby="emailHelp" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputPassword" class="form-label">Senha</label>
+                    <input formControlName="passwordUser" type="password" class="form-control" id="inputPassword"
+                        name="inputPassword" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="inputConfirmPassword" class="form-label">Confirmar senha</label>
+                    <input formControlName="confirmPassword" type="password" class="form-control"
+                        id="inputConfirmPassword" name="inputConfirmPassword" />
+                </div>
+
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label form-text" for="exampleCheck">Lembrar identificação de
+                        usuário</label>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-success">Entrar</button>
+                    <button (click)="criarForm()" class="btn btn-outline-secondary">Limpar</button>
+                </div>
+            </form>
+        </div>
+        <img class="p-3 mb-2 col-4 img-fluid" src="../../assets/loginCat.jpg" alt="">
+    </div>
+</main>
